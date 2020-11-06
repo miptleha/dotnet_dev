@@ -13,3 +13,9 @@
 Обладая общими знаниями по C#, можно пробовать проходить [собеседования](https://bool.dev/blog/detail/voprosy-na-sobesedovanii-po-c) по этому языку. Еще пример [вопросов](https://habr.com/ru/post/328504/), или [такие](https://zen.yandex.ru/media/id/5c55c96186e4a700adce7631/voprosy-na-sobesedovaniiah-po-c-i-net-na-poziciiu-juniormiddle-chast-1-5c5881a7394f1500aae3995b).
 Можно попрактиковаться на таких [задачах](https://metanit.com/sharp/practice/1.1.php). Вот такие [задачи](http://cppstudio.com/cat/285/) (они для C++, но их можно решать и на любом другом языке).
 Если искать задачу не хочется, можно зарегистрироваться на [codewars](https://www.codewars.com/) и порешать задачки там.
+
+# Настройка окружения
+
+Для выполнения кода C# понадобится среда разработки (IDE), которая включает в себя компилятор, редактор кода, отладчик и другие средства.
+Рекомендуется пользоваться [Visual Studio](https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=Community)
+Если слабый интернет или нет места на диске, то в качестве альтернативы редактором [Visual Code](https://code.visualstudio.com/docs/?dv=win), проведя его [настройку](https://code.visualstudio.com/docs/languages/csharp).

@@ -16,6 +16,6 @@
 
 # Настройка окружения
 
-Для выполнения кода C# понадобится среда разработки (IDE), которая включает в себя компилятор, редактор кода, отладчик, clr и разные фреймвоки (можно выбрать необходимые или добавить потом).
-Рекомендуется пользоваться [Visual Studio](https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=Community).
+Для выполнения кода C# понадобится среда разработки (IDE), которая включает в себя компилятор, редактор кода, отладчик и все необходимое для запуска программ.
+Рекомендуется пользоваться [Visual Studio](https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=Community). При установке выбрать необходимые фреймвоки (можно будет добавить потом).
 Если слабый интернет или нет места на диске, то загрузите редактор [Visual Code](https://code.visualstudio.com/docs/?dv=win), проведя его [настройку](https://code.visualstudio.com/docs/languages/csharp).

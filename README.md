@@ -23,14 +23,14 @@
 
 # В инете на эту тему
 
-https://zen.yandex.ru/media/id/5caf292624db4c00b49fb778/vakansiia-aspnetrazrabotchik-5cb6e0e4eb4c5d00b3cb401d
-https://itmozg.ru/news/1301/
-https://klever.blog/from-qa-to-net/
-https://habr.com/ru/post/451084/
+* https://zen.yandex.ru/media/id/5caf292624db4c00b49fb778/vakansiia-aspnetrazrabotchik-5cb6e0e4eb4c5d00b3cb401d
+* https://itmozg.ru/news/1301/
+* https://klever.blog/from-qa-to-net/
+* https://habr.com/ru/post/451084/
 
 # Вопросы на собеседовании
 
-https://techrocks.ru/2021/01/12/net-job-interview-questions/
-https://itanddigital.ru/interviewnet
-https://ru.bitdegree.org/rukovodstvo/chto-takoe-net/
+* https://techrocks.ru/2021/01/12/net-job-interview-questions/
+* https://itanddigital.ru/interviewnet
+* https://ru.bitdegree.org/rukovodstvo/chto-takoe-net/
 

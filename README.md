@@ -20,3 +20,17 @@
 Рекомендуется пользоваться [Visual Studio](https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=Community). При установке выбрать необходимые фреймвоки (можно будет добавить потом).
 Если слабый интернет или нет места на диске, то используйте редактор [Visual Code](https://code.visualstudio.com/docs/?dv=win), проведя его [настройку](https://code.visualstudio.com/docs/languages/csharp). Это упрощенный универсальный редактор для любых языков программирования. 
 [Начните](https://docs.microsoft.com/ru-ru/dotnet/core/tutorials/with-visual-studio) с консольных приложений, они не требуют никаких дополнительных знаний, кроме [базовой библиотеки .NET](https://docs.microsoft.com/ru-ru/previous-versions/gg145045(v=vs.110))
+
+# В инете на эту тему
+
+https://zen.yandex.ru/media/id/5caf292624db4c00b49fb778/vakansiia-aspnetrazrabotchik-5cb6e0e4eb4c5d00b3cb401d
+https://itmozg.ru/news/1301/
+https://klever.blog/from-qa-to-net/
+https://habr.com/ru/post/451084/
+
+# Вопросы на собеседовании
+
+https://techrocks.ru/2021/01/12/net-job-interview-questions/
+https://itanddigital.ru/interviewnet
+https://ru.bitdegree.org/rukovodstvo/chto-takoe-net/
+

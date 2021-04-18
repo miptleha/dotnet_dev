@@ -21,6 +21,11 @@
 Если слабый интернет или нет места на диске, то используйте редактор [Visual Code](https://code.visualstudio.com/docs/?dv=win), проведя его [настройку](https://code.visualstudio.com/docs/languages/csharp). Это упрощенный универсальный редактор для любых языков программирования. 
 [Начните](https://docs.microsoft.com/ru-ru/dotnet/core/tutorials/with-visual-studio) с консольных приложений, они не требуют никаких дополнительных знаний, кроме [базовой библиотеки .NET](https://docs.microsoft.com/ru-ru/previous-versions/gg145045(v=vs.110))
 
+# О языке
+
+* https://www.youtube.com/watch?v=gaFYO6ccRpA
+
+
 # В инете на эту тему
 
 * https://zen.yandex.ru/media/id/5caf292624db4c00b49fb778/vakansiia-aspnetrazrabotchik-5cb6e0e4eb4c5d00b3cb401d
@@ -33,4 +38,14 @@
 * https://techrocks.ru/2021/01/12/net-job-interview-questions/
 * https://itanddigital.ru/interviewnet
 * https://ru.bitdegree.org/rukovodstvo/chto-takoe-net/
+* https://metanit.com/sharp/interview/
+* https://ivinsky.livejournal.com/3266.html
+* https://itvdn.com/ru/blog/article/150-questions-net-developer
+
+# Учебники
+
+* https://metanit.com/sharp/tutorial/
+* https://professorweb.ru/my/csharp/charp_theory/level1/index.php
+* http://mycsharp.ru
+* https://itproger.com/, https://itproger.com/course/csharp
 

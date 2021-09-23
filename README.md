@@ -29,6 +29,8 @@ __Старт марафона__: 20.09.2021, __Окончание__: до ноя
 _Написано_: 20.09.2021
 
 
+https://jonskeet.uk/csharp/teasers.html
+
 
 https://docker-curriculum.com/
 

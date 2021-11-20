@@ -35,6 +35,8 @@ _Написано_: 20.09.2021
 
 _Написано_: 26.10.2021
 
+Чтобы вам не пришлось искать ответы на теоритические вопросы, публикую их [здесь](questions.md).
+
 https://metanit.com/sharp/interview/
 
 https://metanit.com/sharp/questions/

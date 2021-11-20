@@ -1,8 +1,9 @@
 ## Список теоритических вопросов по C# со скрытыми ответами для самопроверки
 Ответы даны не мной и могут содержать ошибки, нет смысла их заучивать. Однако, если вы не можете ответить или ваш ответ сильно отличается, то вероятно у вас пробелы по данному вопросу и стоит провести более глубокое его изучение.
 
-Нумерация в порядке согласно [источнику](https://metanit.com/sharp/interview/), все практические вопросы пропущены.
-Автор ответов - [@maddevelop](https://teletype.in/@maddevelop). Хорошие ответы есть и у [Stanislav_Panteleev](http://digital-flame.ru/2018/08/25/c-voprosyi-i-otvetyi-k-sobesedovaniyu-chast-1/).
+Нумерация в порядке согласно [источнику](https://metanit.com/sharp/interview/), все практические вопросы пропущены.   
+Автор ответов - [@maddevelop](https://teletype.in/@maddevelop).   
+Хорошие ответы есть и у [Stanislav_Panteleev](http://digital-flame.ru/2018/08/25/c-voprosyi-i-otvetyi-k-sobesedovaniyu-chast-1/).
 
 <details><summary>Вопрос 9. Является ли тип List потокобезопасной (thread-safe) коллекцией?</summary>
 

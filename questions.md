@@ -4,7 +4,7 @@
 
 Нумерация согласно [источнику вопросов](https://metanit.com/sharp/interview/).   
 Автор ответов - [@maddevelop](https://teletype.in/@maddevelop).   
-Некоторые пространные ответы я сократил, а в некоторых случаях дополнил ответами от [Stanislav_Panteleev](http://digital-flame.ru/2018/08/25/c-voprosyi-i-otvetyi-k-sobesedovaniyu-chast-1/).
+Некоторые пространные ответы я сократил и слегка поправил, в некоторых случаях дополнил ответами от [Stanislav_Panteleev](http://digital-flame.ru/2018/08/25/c-voprosyi-i-otvetyi-k-sobesedovaniyu-chast-1/).
 
 <details><summary>Вопрос 9. Является ли тип List потокобезопасной (thread-safe) коллекцией?</summary>
 

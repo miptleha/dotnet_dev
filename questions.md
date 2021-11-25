@@ -291,7 +291,7 @@ var phones2 = phoneIQuer.Where(p => p.Id > id).ToList(); //SELECT * FROM PHONES 
 
 <details><summary>Вопрос 48. Можно ли разрешить наследование класса, но запретить переопределение метода?</summary>
 
->Частично да (потому что требуется как минимум 3 класса), если для дочернего класса переопределяем виртуальный метод как sealed override, тогда дальнейшее переопределение по цепочке наследования запрещено.
+>Можно для второго класса в иерархии наследования, если переопределяем виртуальный метод как sealed override, тогда дальнейшее переопределение по цепочке наследования запрещено.
 </details>
 	
 <details><summary>Вопрос 49. Определение паттерна синглтон</summary>
@@ -300,17 +300,10 @@ var phones2 = phoneIQuer.Where(p => p.Id > id).ToList(); //SELECT * FROM PHONES 
 ```csharp
 class Singleton
 {
-    private static Singleton instance;
- 
-    private Singleton()
-    {}
- 
-    public static Singleton getInstance()
-    {
-        if (instance == null)
-            instance = new Singleton();
-        return instance;
-    }
+    private static readonly Singleton _instance = new Singleton();
+    private Singleton() {}
+    static Singleton() {}
+    public static Singleton Instance { get { return _instance; } }
 }
 ```
 </details>

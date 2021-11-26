@@ -310,96 +310,14 @@ class Singleton
 	
 <details><summary>Вопрос 50. Thread, task, примеры использования?</summary>
 
-Ответ:
-
-Класс Thread, позволяет выделить, которые будут выполняться одновременно.
-
-Для запуска нового потока нужно определить метод, который будет выполняться в потоке. Для создания потока используется делегат ThreadStart, получающий в качестве параметра определенный ранее метод.
-
-Для запуска потока вызывается метод Start.
-
-using System.Threading;
- 
-class Program
-{
-    static void Main(string[] args)
-    {
-        // создаем новый поток
-        Thread myThread = new Thread(new ThreadStart(Count));
-        myThread.Start(); // запускаем поток
- 
-        for (int i = 1; i < 9; i++)
-        {
-            Console.WriteLine("Главный поток:");
-            Console.WriteLine(i * i);
-            Thread.Sleep(300);
-        }
- 
-        Console.ReadLine();
-    }
- 
-    public static void Count()
-    {
-        for (int i = 1; i < 9; i++)
-        {
-            Console.WriteLine("Второй поток:");
-            Console.WriteLine(i * i);
-            Thread.Sleep(400);
-        }
-    }
-}
-
-Новый поток будет производить действия, определенные в методе Count. Для запуска этого метода в качестве второго потока, создается объект потока: Thread myThread = new Thread(new ThreadStart(Count));. В конструктор передается делегат ThreadStart, который в качестве параметра принимает метод Count. И следующим методом myThread.Start() запускается поток. После этого управление передается главному потоку, и выполняются все остальные действия, определенные в методе Main.
-
-Существует еще одна форма создания потока: Thread myThread = new Thread(Count); Хотя в данном случае явным образом мы не используем делегат ThreadStart, но неявно он создается. Компилятор C# выводит делегат из сигнатуры метода Count и вызывает соответствующий конструктор.
-
-(Источник)
-
-Класс Task, который находится в пространстве имен System.Threading.Tasks, позволяет запускать отдельную продолжительную задачу. Она запускается асинхронно в одном из потоков из пула потоков, но ее можно запускать и синхронно.
-
-Первый способ запуска - это создание объекта Task и вызов у него метода Start:
-
-Task task = new Task(() => Console.WriteLine("Hello Task!"));
-task.Start();
-
-В качестве параметра объект Task принимает делегат Action. А метод Start() запускает задачу.
-
-Второй способ - это использование статического метода Task.Factory.StartNew(). Он в качестве параметра принимает делегат Action. При этом этот метод сразу же запускает задачу:
-
-Task task = Task.Factory.StartNew(() => Console.WriteLine("Hello Task!"));
-
-В качестве результата метод возвращает запущенную задачу.
-
-Третий способ определения и запуска задач представляет использование статического метода Task.Run():
-
-Task task = Task.Run(() => Console.WriteLine("Hello Task!"));
-
-Метод Task.Run() также в качестве параметра может принимать делегат Action и возвращает объект Task.
-
-Пример:
-
-using System;
-using System.Threading.Tasks;
- 
-namespace HelloApp
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Task task1 = new Task(() => Console.WriteLine("Task1 is executed"));
-            task1.Start();
- 
-            Task task2 = Task.Factory.StartNew(() => Console.WriteLine("Task2 is executed"));
- 
-            Task task3 = Task.Run(() => Console.WriteLine("Task3 is executed"));
-             
-            Console.ReadLine();
-        }
-    }
-}
-
-(Источник)
+>Класс Thread создает и контролирует поток. На входе указывается метод, который будет выполняться в потоке.
+>Класс Task позволяет запускать отдельную продолжительную задачу. Она запускается асинхронно в одном из потоков из пула потоков, но ее можно запускать и синхронно.
+```charp
+var t = new Thread(() => Thread.Sleep(1000));
+t.IsBackground = false; //основной поток, система сама ожидает его завершение
+t.Start();
+Task.Run(() => Task.Delay(1000)).Wait(); //с использованием TPL
+```
 </details>
 	
 <details><summary>Вопрос 51. Что такое интеграционные тесты и unit-тесты?</summary>

@@ -338,6 +338,7 @@ Task.Run(() => Task.Delay(1000)).Wait(); //с использованием TPL
 </details>
 	
 <details><summary>Вопрос 54. Когда использовать StringBuilder предпочтительнее, чем string?</summary>
+
 >StringBuilder предпочтительнее использовать если строка часто изменяется.
 </details>
 	

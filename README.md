@@ -3,7 +3,7 @@
 Вопросы посвящены [базовому курсу C#](https://metanit.com/sharp/tutorial/), вопросы на анализ кода пропустил (их можно найти по ссылкам, указаным далее).
 
 Нумерация согласно [источнику вопросов](https://metanit.com/sharp/interview/).   
-Автор ответов - [@maddevelop](https://teletype.in/@maddevelop).   
+Автор ответов - [@maddevelop](https://teletype.in/@maddevelop). Части: [1](https://teletype.in/@maddevelop/r1t-GTKfV), [2](https://teletype.in/@maddevelop/BkgiE0tzN), [3](https://teletype.in/@maddevelop/H1h78AKG4), [4](https://teletype.in/@maddevelop/HJuu8CFMV), [5](https://teletype.in/@maddevelop/B1v4vCFzE), [6](https://teletype.in/@maddevelop/rytrv-QBN), [7](https://teletype.in/@maddevelop/ByQG3NVBE).   
 Некоторые пространные ответы сократил и слегка поправил, в некоторых случаях дополнил ответами от [Stanislav_Panteleev](http://digital-flame.ru/2018/08/25/c-voprosyi-i-otvetyi-k-sobesedovaniyu-chast-1/).
 
 Всем успехов в изучении C# и .NET. Программирование должно приносить радость!
@@ -195,7 +195,7 @@ var phones2 = phoneIQuer.Where(p => p.Id > id).ToList(); //SELECT * FROM PHONES 
 	
 <details><summary>Вопрос 34. Какие типы можно использовать в предложении foreach?</summary>
 
->Можно использовать типы, которые реализуют интерфейс System.Collections.IEnumerable или System.Collections.Generic.IEnumerable<T>. Либо же к любым типам которые удовлетворяют следующим условиям:
+>Можно использовать типы, которые реализуют интерфейс System.Collections.IEnumerable или System.Collections.Generic.IEnumerable\<T\>. Либо же к любым типам которые удовлетворяют следующим условиям:
 >    * Включают открытый метод GetEnumerator без параметров с классом, структурой или тип интерфейсом в качестве возвращаемого значения;
 >    * Тип возвращаемого значения метода GetEnumerator должен содержать открытое свойство Current и открытый метод MoveNext без параметров с типом возвращаемого значения Boolean.
 </details>

@@ -4,8 +4,8 @@
 
 Нумерация согласно [источнику вопросов](https://metanit.com/sharp/interview/).   
 Автор ответов - [@maddevelop](https://teletype.in/@maddevelop). Части: [1](https://teletype.in/@maddevelop/r1t-GTKfV), [2](https://teletype.in/@maddevelop/BkgiE0tzN), [3](https://teletype.in/@maddevelop/H1h78AKG4), [4](https://teletype.in/@maddevelop/HJuu8CFMV), [5](https://teletype.in/@maddevelop/B1v4vCFzE), [6](https://teletype.in/@maddevelop/rytrv-QBN), [7](https://teletype.in/@maddevelop/ByQG3NVBE).   
-Некоторые пространные ответы сократил и слегка поправил, в некоторых случаях дополнил ответами от [Stanislav_Panteleev](http://digital-flame.ru/2018/08/25/c-voprosyi-i-otvetyi-k-sobesedovaniyu-chast-1/) (тоже разбиты на части, но сверху есть навигация между частями).
-
+в некоторых случаях дополнил ответами от [Stanislav_Panteleev](http://digital-flame.ru/2018/08/25/c-voprosyi-i-otvetyi-k-sobesedovaniyu-chast-1/) (тоже разбиты на части, но сверху есть навигация между частями).   
+Некоторые пространные ответы сократил и слегка поправил, чтоб было покороче :)   
 Успехов в изучении C# и .NET. Пускай программирование приносит Вам радость!
 
 <details><summary>Вопрос 9. Является ли тип List потокобезопасной (thread-safe) коллекцией?</summary>

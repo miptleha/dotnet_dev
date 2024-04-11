@@ -379,3 +379,6 @@ Task.Run(() => Task.Delay(1000)).Wait(); //с использованием TPL
 
 >Константы инициализируются только во время компиляции, а поля, доступные для чтения, могут инициализироваться и в месте определения и во время выполнения в конструкторе.
 </details>
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmiptleha%2Fdotnet_dev&count_bg=%230C7DBD&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+

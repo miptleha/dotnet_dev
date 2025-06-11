@@ -380,4 +380,4 @@ Task.Run(() => Task.Delay(1000)).Wait(); //с использованием TPL
 >Константы инициализируются только во время компиляции, а поля, доступные для чтения, могут инициализироваться и в месте определения и во время выполнения в конструкторе.
 </details>
 
-[![HitCount](https://hits.dwyl.com/miptleha/dotnet_dev.svg?style=flat-square)](http://hits.dwyl.com/miptleha/dotnet_dev)
+[![hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fmiptleha%2Fdotnet_dev?color=blue&label=hits&size=small)](https://myhits.vercel.app)
